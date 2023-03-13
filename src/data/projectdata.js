@@ -36,7 +36,7 @@ export const projectsData = [
     {
         id : 4,
         imageUrl : carousal ,
-        title: "Carousal Application",
+        title: "Carousel Application",
         descr: "",
         techStack: ['React',"HTML","Tailwind CSS"],
         sourceCode: "https://github.com/Ajit99999/Custoem-carousel",
