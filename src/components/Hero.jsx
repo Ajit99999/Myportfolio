@@ -9,7 +9,7 @@ const Hero = () => {
           </p>
           <p>I love to design & build new things. <span className="text-xl" > 😊 </span> </p>
           <p>
-            3 years of experiences in Software industry having worked with Startups,Mnc like{" "}
+            3 years of experiences in Software industry having worked with Startups & Mnc like{" "}
             <span className="font-semibold"> Infosys,Brillo.</span>{" "}
           </p>
         </div>
