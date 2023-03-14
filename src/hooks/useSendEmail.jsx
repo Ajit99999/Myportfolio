@@ -9,10 +9,10 @@ const useSendEmail = () => {
         try {
             setErrorVal("");
             const response = await emailjs.send(
-                "service_y4ywze8",
-                "template_ah4ckvh",
+                import.meta.env.VITE_SERVICE_KEY,
+                import.meta.env.VITE_TEMPLATE_KEY,
                 formDetails,
-                "gHKRU4RcgIwrmB2ZV"
+                import.meta.env.VITE_ACCESS_KEY
             );
             console.log(response.status);
             setStatusVal(response.text);
