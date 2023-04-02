@@ -2,8 +2,17 @@ import ecommerce from '../images/ecommerce.png'
 import finance from '../images/Finance.png'
 import calculator from '../images/calculator.png'
 import carousal from '../images/Carousal.png'
+import wechat from '../images/wechat.png'
 export const projectsData = [
-
+    {
+        id : 5,
+        imageUrl : wechat,
+        title: "WeChat Application",
+        descr: "",
+        techStack: ['React',"Socket.IO","Express","Firebase"],
+        sourceCode: "https://github.com/Ajit99999/wechatapplication",
+        liveUrl : "https://wechat-k381.onrender.com/"
+    },
     {
         id : 1,
         imageUrl : ecommerce,
