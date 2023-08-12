@@ -1,4 +1,4 @@
-import resume from "../data/Ajit97resume.pdf";
+import resume from "../data/Ajit.pdf";
 const NavBar = () => {
   return (
     <div>
